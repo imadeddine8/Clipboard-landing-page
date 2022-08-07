@@ -1,0 +1,454 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("images/bg-header-desktop.png");
+    background-repeat: no-repeat;
+    font-family: 'Bai Jamjuree', sans-serif;
+    text-align: center;
+    position: relative;
+}
+/* h=Header */
+.container .header{
+    margin-top: 8rem;
+}
+/* Logo */
+.container .header .logo{
+    width: 85px;
+}
+/* Title */
+.container .header .title{
+    font-size: 35px;
+    color: hsl(210, 10%, 33%);
+    margin: 2rem 0 0 0;
+}
+/* Header > Paragraph */
+.container .header .paragraph{
+    margin: 1rem 25rem 0 25rem;
+    color: hsl(201, 11%, 66%);
+    line-height: 1.5rem;
+}
+/* Header > Buttons */
+.container .header .buttons{
+    margin: 1.5rem 0 0 0;
+}
+.container .header .buttons .ios{
+    color: white;
+    background-color: hsl(171, 66%, 44%);
+    width: 160px;
+    height: 40px;
+    border-radius: 50px;
+    font-weight: 600;
+}
+.container .header .buttons .mac{
+    color: white;
+    background-color: hsl(233, 100%, 69%);
+    width: 160px;
+    height: 40px;
+    border-radius: 50px;
+    font-weight: 600;
+}
+/* Active Mode */
+.container .header .buttons .ios:active{
+    background-color: hsla(171, 66%, 44%, 0.8);
+    cursor: pointer;
+}
+.container .header .buttons .mac:active{
+    background-color: hsla(233, 100%, 69%, 0.8);
+    cursor: pointer;
+}
+/* Snippets */
+.container .snippets{
+    margin: 6rem 0 0 0;
+}
+.container .snippets h2{
+    color: hsl(210, 10%, 33%);
+}
+.container .snippets p{
+    color: hsl(201, 11%, 66%);
+    margin: 1rem 23rem 0 23rem;
+    line-height: 1.5rem;
+}
+/* Computer */
+.container .computer{
+    display: flex;
+    flex-direction: row;
+    margin: 5rem 0 0 0;
+}
+.container .computer-image{
+    transform: translate(-30px);
+    height: 500px;
+}
+/* Side*/
+.container .computer .side{
+    margin: 3rem 0 0 4rem;
+}
+.container .computer .side .quick{
+    text-align: left;
+    width: 280px;
+    margin: 0 0 4rem 0;
+}
+.container .computer .side .quick .pbold{
+    font-size: 18px;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+}
+.container .computer .side .quick .p{
+    color: hsl(201, 11%, 66%);
+    margin: 0.5rem 0 0 0;
+    font-size: 13px;
+    line-height: 1.5rem;
+}
+.container .computer .side .icloud{
+    text-align: left;
+    margin: 0 0 4rem 0;
+    width: 280px;
+}
+.container .computer .side .icloud .pbold{
+    font-size: 18px;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+}
+.container .computer .side .icloud .p{
+    color: hsl(201, 11%, 66%);
+    margin: 0.5rem 0 0 0;
+    font-size: 13px;
+    line-height: 1.5rem;
+}
+.container .computer .side .complete{
+    text-align: left;
+    width: 280px;
+}
+.container .computer .side .complete .pbold{
+    font-size: 18px;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+}
+.container .computer .side .complete .p{
+    color: hsl(201, 11%, 66%);
+    margin: 0.5rem 0 0 0;
+    font-size: 13px;
+    line-height: 1.5rem;
+}
+/* Access */
+.container .access{
+    margin: 7rem 24rem 0 24rem;
+}
+.container .access .title{
+    color: hsl(210, 10%, 33%);
+}
+.container .access .paragraph{
+    color: hsl(201, 11%, 66%);
+    margin: 1rem 0 0 0;
+    line-height: 1.6rem;
+    font-size: 15px;
+}
+.container .devices-image img{
+    margin: 5rem 0 0 0;
+    width: 750px;
+}
+.container .supercharge{
+    margin: 4rem 24rem 0 24rem;
+}
+.container .supercharge .title{
+    color: hsl(210, 10%, 33%);
+}
+.container .supercharge .paragraph{
+    color: hsl(201, 11%, 66%);
+    margin: 1rem 0 0 0 ;
+    line-height: 1.6rem;
+    font-size: 13px;
+}
+/* Divs */
+.container .divs{
+    margin: 4rem 0 0 0;
+    display: flex;
+    gap: 30px;
+}
+.container .divs .blacklists{
+    margin: 0 0 0 13rem;
+    width: 300px;
+}
+.container .divs .blacklists img{
+}
+.container .divs .blacklists .title{
+    color: hsl(210, 10%, 33%);
+    margin: 1rem 0 0 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+.container .divs .blacklists p{
+    color: hsl(201, 11%, 66%);
+    font-size: 14px;
+    line-height: 1.6rem;
+    margin: 1rem 0 0 0;
+}
+
+.container .divs .text{
+    margin: 0 0 0 0;
+    width: 300px;
+}
+.container .divs .text img{
+    width: 45px;
+}
+.container .divs .text .title{
+    color: hsl(210, 10%, 33%);
+    margin: 1rem 0 0 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+.container .divs .text p{
+    color: hsl(201, 11%, 66%);
+    font-size: 14px;
+    line-height: 1.6rem;
+    margin: 1rem 0 0 0;
+}
+
+.container .divs .preview{
+    margin: 0 10rem 0 0;
+    width: 320px;
+}
+.container .divs .preview img{
+    width: 60px;
+}
+.container .divs .preview .title{
+    color: hsl(210, 10%, 33%);
+    margin: 1rem 0 0 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+.container .divs .preview p{
+    color: hsl(201, 11%, 66%);
+    font-size: 14px;
+    line-height: 1.6rem;
+    margin: 1rem 0 0 0;
+}
+/* Logos */
+.container .logos{
+    margin: 3rem 0 0 0;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5rem 3rem 0 5rem;
+}
+.container .logos .google-logo{
+    width: 100px;
+    height: 35px;
+}
+.container .logos .ibm-logo{
+    width: 100px;
+    height: 35px;
+}
+.container .logos .microsoft-logo{
+    width: 100px;
+    height: 27px;
+}   
+.container .logos .hp-logo{
+    width: 100px;
+    height: 35px;
+}
+.container .logos .vector-logo{
+    width: 100px;
+    height: 25px;
+}
+/* Clipboard */
+.container .clipboard{
+    margin: 6rem 0 0 0;
+}
+.container .clipboard h2{
+    color: hsl(210, 10%, 33%);
+    margin: 2rem 0 0 0;
+}
+.container .clipboard p{
+    margin: 1rem 25rem 0 25rem;
+    color: hsl(201, 11%, 66%);
+    line-height: 1.5rem;
+    font-size: 14px;
+}
+.container .clipboard .buttons{
+    margin: 2rem 0 0 0;
+}
+.container .clipboard .buttons .ios{
+    color: white;
+    background-color: hsl(171, 66%, 44%);
+    width: 160px;
+    height: 40px;
+    border-radius: 50px;
+    font-weight: 600;
+}
+.container .clipboard .buttons .mac{
+    color: white;
+    background-color: hsl(233, 100%, 69%);
+    width: 160px;
+    height: 40px;
+    border-radius: 50px;
+    font-weight: 600;
+}
+/* Active Mode */
+.container .clipboard .buttons .ios:active{
+    cursor: pointer;
+    background-color: hsla(171, 66%, 44%, 0.8);
+}
+.container .clipboard .buttons .mac:active{
+    cursor: pointer;
+    background-color: hsla(233, 100%, 69%, 0.8);
+}
+/* Footer */
+.container footer{
+    margin: 6rem 0 0 0;
+    height: 140px;
+    display: flex;
+    flex-direction: row;
+    background-color: hsla(201, 11%, 66%, 0.1);
+}
+.container footer .logo{
+    width: 50px;
+    height: 50px;
+    margin: 2rem 0 0 13rem;
+}
+.container footer .information{
+    margin: 2rem 0 0 8rem;
+    font-size: 15px;
+    color:hsl(210, 10%, 33%);
+}
+.container footer .information .faqs{
+    position: absolute;
+}
+.container footer .information .privacy{
+    position: absolute;
+    left: 550px;
+}
+.container footer .information .install{
+    position: absolute;
+    left: 700px;
+}
+.container footer .information .contact{
+    position: absolute;
+    bottom: 50px;
+}
+.container footer .information .press{
+    position: absolute;
+    left: 550px;
+    bottom: 50px;
+}
+.container footer .information:active{
+    cursor: pointer;
+}
+.container footer .information .faqs:active{
+    color: hsl(171, 66%, 44%);
+}
+.container footer .information .privacy:active{
+    color: hsl(171, 66%, 44%);
+}
+.container footer .information .install:active{
+    color: hsl(171, 66%, 44%);
+}
+.container footer .information .contact:active{
+    color: hsl(171, 66%, 44%);
+}
+.container footer .information .press:active{
+    color: hsl(171, 66%, 44%);
+}
+.container footer .logos{
+    margin: 3rem 0 0 45rem;
+    width: 100px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.container footer .logos:active{
+    cursor: pointer;
+}
+/* Responsive */
+@media screen and (max-width: 700px){
+    .body{
+        display: flex;
+        flex-direction: column;
+        background-image: url("images/bg-header-mobile.png");
+        background-repeat: no-repeat;
+    }
+    .container{
+
+    }
+    .container header .paragraph{
+
+    }
+    .container header .buttons{
+        display: flex;
+        flex-direction: column;
+        transform: translate(100px);
+        gap: 10px;
+    }
+    .container .snippets{
+        margin: 7rem 50px 0 50px;
+    }
+    .container .snippets .p{
+
+    }
+    .container .computer{
+        display: flex;
+        flex-direction: column;
+    }
+    .container .computer .computer-image{
+        width: 300px;
+        height: 250px;
+        transform: translate(70px);
+    }
+    .container .computer .side .quick{
+        text-align: center;
+        margin: 0 0 0 0;
+    }
+    .container .computer .side .icloud{
+        text-align: center;
+        margin: 3rem 0 0 0;
+    }
+    .container .computer .side .complete{
+        text-align: center;
+        margin: 3rem 0 0 0;
+    }
+    .container .access{
+
+    }
+    .container .devices-image img{
+        width: 350px;
+        height: 250px;
+    }
+    .container .supercharge{
+
+    }
+    .container .divs{
+        display: flex;
+        flex-direction: column;
+    }
+    .container .divs .blacklists{
+        margin: 0 0 0 40px;
+    }
+    .container .divs .text{
+        margin: 0 0 0 40px;
+    }
+    .container .divs .preview{
+        margin: 0 0 0 30px;
+    }
+    .container .logos{
+        display: flex;
+        flex-direction: column;
+        margin: 100px 0 0 140px;
+        gap: 50px;
+    }
+    .container .clipboard{
+        display: flex;
+        flex-direction: column;
+    }
+    .container .clipboard .buttons{
+        display: flex;
+        flex-direction: column;
+        transform: translate(100px);
+        gap: 10px
+    }
+    .container footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
